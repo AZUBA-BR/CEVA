@@ -1,9 +1,9 @@
 <model-viewer
-             poster="https://raw.githubusercontent.com/AZUBA-BR/MADESA/master/6002-Branco/6002-Branco.jpg" width=100%
-              src="https://raw.githubusercontent.com/AZUBA-BR/CEVA/main/ANGUS_PBR.gltf"
-             ar ar-modes="webxr scene-viewer quick-look"
-             ar-scale="auto" camera-controls alt="A 3D model of an astronaut" 
-              ios-src="https://raw.githubusercontent.com/AZUBA-BR/MADESA/master/6002-Branco/6002-Branco.usdz"
+              src="../../shared-assets/models/Astronaut.glb"
+              ar ar-modes="webxr scene-viewer quick-look" 
+              ar-scale="auto" camera-controls alt="A 3D model of an astronaut" 
+              skybox-image="../../shared-assets/environments/aircraft_workshop_01_1k.hdr" 
+              ios-src="../../shared-assets/models/Astronaut.usdz"
 >
 </model-viewer>
 
@@ -12,3 +12,10 @@ ar ar-modes="webxr scene-viewer quick-look"
 ar-scale="auto" camera-controls alt="A 3D model of an astronaut" 
 skybox-image="../../shared-assets/environments/aircraft_workshop_01_1k.hdr" 
 ios-src="../../shared-assets/models/Astronaut.usdz"
+
+<model-viewer 
+camera-controls autoplay ar shadow-intensity="1" 
+src="../../shared-assets/models/RobotExpressive.glb" 
+alt="An animated 3D model of a robot"
+>
+</model-viewer>
