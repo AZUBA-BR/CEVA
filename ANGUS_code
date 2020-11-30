@@ -12,7 +12,7 @@
               id="reveal" reveal="interaction" camera-controls auto-rotate
               shadow-intensity="1" stage-light-intensity="1" camera-orbit="0deg 75deg 2.4m"
              poster="https://raw.githubusercontent.com/AZUBA-BR/MADESA/master/6002-Branco/6002-Branco.jpg" width=100%
-              src="https://raw.githubusercontent.com/AZUBA-BR/CEVA/ANGUS_PBR.gltf"
+              src="https://raw.githubusercontent.com/AZUBA-BR/CEVA/main/ANGUS_PBR.gltf"
                ios-src="https://raw.githubusercontent.com/AZUBA-BR/MADESA/master/6002-Branco/6002-Branco.usdz"
              ar alt="ANGUS"
 >
