@@ -1,0 +1,20 @@
+<script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+</script>
+
+<!-- Loads <model-viewer> for old browsers like IE11: -->
+
+<script nomodule
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+</script>
+<model-viewer
+              style="width:100%; height:100%"
+              id="reveal" reveal="interaction" camera-controls auto-rotate
+camera-controls autoplay ar shadow-intensity="1"
+              shadow-intensity="1" stage-light-intensity="1" camera-orbit="0deg 70deg 5m"
+             poster="https://github.com/AZUBA-BR/CEVA/blob/main/ANGUS_POSTER.jpg?raw=true" width=100%
+              src="https://raw.githubusercontent.com/AZUBA-BR/CEVA/main/ANGUS_V02.gltf"
+               ios-src="https://raw.githubusercontent.com/AZUBA-BR/MADESA/master/6002-Branco/6002-Branco.usdz"
+             ar alt="MADESA 6002-Branco"
+>
+</model-viewer>
